@@ -1,0 +1,103 @@
+.profileImage{
+    text-align:center;
+}
+.image{
+    border: 7px solid #9f5252;
+    border-radius: 50%;
+    width: 25%;
+}
+.profileSection{
+    margin-top: 5%;
+}
+.titleLine:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .titleLine:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  
+  .titleLine {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .titleLine:after {
+    background-color: #9f5252;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 26%;
+    margin-left: 10px;
+  }
+  
+  .titleLine {
+    background-color: #9f5252;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 26%;
+    margin-left: 30px;
+  }
+  
+  .titleLineFirst {
+    background-color: #9f5252;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 26%;
+    margin-right: 30px;
+  }
+  
+  .titleLineFirst:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+
+@media(max-width:767.98px){
+    .image{
+        border: 4px solid #c39393;
+        border-radius: 50%;
+        width: 30%;
+    }
+}
+@media (min-width: 320px) and (max-width: 520.97px) {
+    .titleLine {
+      background-color: #9f5252;
+      content: "";
+      display: inline-block;
+      height: 2px;
+      position: relative;
+      vertical-align: middle;
+      width: 20%;
+      margin-left: 10px;
+    }
+  
+    .titleLineFirst {
+      background-color: #9f5252;
+      content: "";
+      display: inline-block;
+      height: 2px;
+      position: relative;
+      vertical-align: middle;
+      width: 20%;
+      margin-right: 10px;
+    }
+    .image{
+      border: 4px solid #c39393;
+      border-radius: 50%;
+      width: 40%;
+  }
+}
+
+.anime{
+  display: inline;
+}
