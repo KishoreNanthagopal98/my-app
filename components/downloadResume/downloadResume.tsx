@@ -19,10 +19,12 @@ function resumeAnimation() {
 
       setTimeout(() => {
         lastSpan.textContent = "Completed!";
-        FileSaver.saveAs(
-          "https://github.com/KishoreNanthagopal98/my-app/blob/main/public/kishore-n.pdf",
-          "Kishore-n-resume.pdf"
-        );
+        fetch('https://github.com/KishoreNanthagopal98/my-app/blob/main/public/kishore-n.pdf', {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/pdf',
+          },
+        });
       }, timeout * 0.9);
 
       setTimeout(() => {
