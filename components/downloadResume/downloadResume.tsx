@@ -17,8 +17,8 @@ function resumeAnimation() {
       tar.disabled = true;
 
       setTimeout(() => {
-        lastSpan.textContent = "Completed!";
         window.location.href = 'kishore-n.pdf';
+        lastSpan.textContent = "Completed!";
       }, timeout * 0.9);
 
       setTimeout(() => {
