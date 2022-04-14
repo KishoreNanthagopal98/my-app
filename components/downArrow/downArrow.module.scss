@@ -1,20 +1,20 @@
 .animated {
   position: absolute;
-  margin: auto;
+  margin: 15px auto auto auto;
   right: 0;
   left: 0;
-  bottom: 50px;
+  // bottom: 50px;
   height: 4px;
   width: 4px;
   border-radius: 2px;
-  background: #fff;
+  background: transparent;
   animation-duration: 4.5s;
   animation-iteration-count: infinite;
 }
 
 .animated::after {
   position: absolute;
-  top: -23px;
+  top: 40px;
   content: '';
   height: 30px;
   width: 4px;
@@ -30,7 +30,7 @@
 
 .animated::before {
   position: absolute;
-  top: -23px;
+  top: 40px;
   content: '';
   height: 30px;
   width: 4px;
@@ -68,7 +68,7 @@
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1000.98px) {
   .arrowBounce {
     display: none;
   }

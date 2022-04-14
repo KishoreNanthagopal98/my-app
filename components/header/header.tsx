@@ -6,7 +6,7 @@ import styles from "components/header/header.module.scss";
 function header() {
   return (
     <header className={styles.sticky}>
-      <div className={`${styles.topheadersection} border-left border-top border-right`}>
+      <div className={`${styles.topheadersection} border-left border-top border-right container`}>
         <div>
           <div className="row mt10 mb1">
             <div className="col-12 ml-0">
