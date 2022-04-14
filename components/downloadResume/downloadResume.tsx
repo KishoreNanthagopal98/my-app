@@ -2,7 +2,6 @@ import styles from "components/downloadResume/downloadResume.module.scss";
 
 import { Fade } from "react-awesome-reveal";
 
-var FileSaver = require('file-saver');
 
 function resumeAnimation() {
   let tar: any = document.getElementById("resumeButton");
@@ -19,12 +18,7 @@ function resumeAnimation() {
 
       setTimeout(() => {
         lastSpan.textContent = "Completed!";
-        fetch('https://github.com/KishoreNanthagopal98/my-app/blob/main/public/kishore-n.pdf', {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/pdf',
-          },
-        });
+        window.location.href = 'kishore-n.pdf';
       }, timeout * 0.9);
 
       setTimeout(() => {
