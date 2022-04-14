@@ -9,7 +9,7 @@ function header() {
       <div className={`${styles.topheadersection} border-left border-top border-right container`}>
         <div>
           <div className="row mt10 mb1">
-            <div className="col-12 ml-0">
+            <div className={`${styles.topheadersectionCol} col-12 ml-0`}>
               <div className="row d-flex justify-content-center">
                 <div className={`${styles.headerDiv} col-2`}>
                   <div>
