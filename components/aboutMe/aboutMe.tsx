@@ -9,14 +9,14 @@ function aboutMe() {
     <>
       <Fade>
         <div className="containers">
-          <div className={styles.aboutme}>
+          <div className={styles.aboutme} id="aboutMeId">
             <div className={`${styles.aboutMeSection} circle`}>
               <p className={styles.aboutDetails}>
                 Hi I&apos;m Kishore, A 24 Years young software developer, Living
                 in Coimbatore, India. Currently working at BYJU&apos;S as a full stack developer. 
                 I love to learn New thing and solve
                 Problems. I love to capture sweet memories, moments and
-                things that not vivisble to human eye, through one Instrument
+                things thats not vivisble to human eye, through one Instrument
                 that can freeze time and give us back as photos. I like meeting
                 new people and learn new things. Take a look at my resume.
               </p>
