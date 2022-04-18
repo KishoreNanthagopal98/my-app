@@ -29,7 +29,8 @@ function header() {
       <div className={`${styles.navbar} container`}>
         <div>
           <ul className={styles.navbarLists}>
-            <li className={styles.navbarElements}>ABOUT</li>
+            <li className={styles.navbarElements}>
+              <a href="#aboutMeId">ABOUT</a></li>
             <li className={styles.navbarElements}>SKILLS</li>
             <li className={styles.navbarElements}>PROJECTS</li>
             <li className={styles.navbarElements}>JOURNEY</li>
