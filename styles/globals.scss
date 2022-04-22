@@ -47,24 +47,29 @@ body * {
 	font-size: 20px;
 }
 
-@media (max-width:767.98px){
+@media (max-width:767.98px) {
 	html,
-body,
-body * {
-	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
-		Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
-		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
-	color: inherit;
-	// background-color: inherit;
-	font-size: 15px;
+	body,
+	body * {
+		font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+			Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+			"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+		color: inherit;
+		// background-color: inherit;
+		font-size: 15px;
+	}
 }
+
+.row{
+	margin-right: 0 !important;
+	margin-left: 0 !important;
 }
 
 p {
 	margin-bottom: 0rem !important;
 }
 
-a{
+a {
 	color: #a86565 !important;
 	text-decoration: none !important;
 }
