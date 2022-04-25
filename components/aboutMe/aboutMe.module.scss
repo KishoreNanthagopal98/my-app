@@ -1,18 +1,24 @@
-.aboutme{
+.aboutme {
     margin-top: 12%;
     text-align: center;
-    color:white;
+    color: white;
 }
 
-.aboutMeSection{
+.aboutMeSection {
     padding-top: 2px;
     padding-bottom: 2px;
     // background-color: #a86565;
 }
 
-.aboutDetails{
+.aboutDetails {
     text-align: center;
     margin: auto;
     background-color: #a86565;
     padding: 2% 6%;
+}
+
+@media (max-width:420px) {
+    .aboutDetails {
+        padding: 2% 14%;
+    }
 }
