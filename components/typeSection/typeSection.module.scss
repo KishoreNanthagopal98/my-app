@@ -1,0 +1,51 @@
+.typing{
+  margin-top: 20px;
+  color: #a86565;
+}
+
+.centerBox{
+  text-align: center;
+}
+
+.destination{
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.hey{
+  font-size:30px;
+}
+
+.name{
+  font-size:30px;
+}
+
+@media(max-width:990px){
+  .destination{
+    font-size: 25px;
+    font-weight: 800;
+  }
+  
+  .hey{
+    font-size:25px;
+  }
+  
+  .name{
+    font-size:25px;
+  }
+}
+
+@media(max-width:520px){
+  .destination{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .hey{
+    font-size:18px;
+  }
+  
+  .name{
+    font-size:18px;
+  }
+}
