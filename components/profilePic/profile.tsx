@@ -24,7 +24,7 @@ function profile() {
   return (
     <>
       <div className={styles.profileSection}>
-        <div className={styles.profileImage}>      
+        <div className={styles.profileImage} id="profilePic">      
           <Radium.StyleRoot className={styles.anime}>
             <span className={styles.titleLineFirst} style={stylesAnimation.bounceInLeft}/>  
             <img src="/profileImg-min.png" className={styles.image} style={stylesAnimation.bounceIn} loading="lazy"/>

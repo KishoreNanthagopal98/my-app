@@ -1,23 +1,29 @@
 import style from "components/menuBar/menu.module.scss";
 
+import Link from "next/link";
+
 export default function menuBar() {
   return (
     <>
       <div>
         <nav className={style.nav}>
           <ul className={style.ul}>
-            <li className={style.li}>
-            <div className={style.homeicon}>
-                <div>
-                  <i className={`uil uil-user-nurse ${style.icon}`}></i>
+            <Link href="#aboutMeId">
+              <li className={style.li}>
+                <div className={style.homeicon}>
+                  <div>
+                    <i className={`uil uil-user-nurse ${style.icon}`}></i>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li className={style.li}>
-              <div className="abouticon">
-                <i className={`uil uil-books ${style.icon}`}></i>
-              </div>
-            </li>
+              </li>
+            </Link>
+            <Link href="#skillSection">
+              <li className={style.li}>
+                <div className="abouticon">
+                  <i className={`uil uil-books ${style.icon}`}></i>
+                </div>
+              </li>
+            </Link>
             <li className={style.li}>
               <div className="work-icon">
                 <i className={`uil uil-copy-alt ${style.icon}`}></i>
