@@ -44,7 +44,7 @@ function downloadResume() {
   return (
     <>
       <Fade>
-        <div className="containers">
+        <div className="containers" id="download-pdf">
           <div className={styles.downloadArrow}>
             <button
               type="button"

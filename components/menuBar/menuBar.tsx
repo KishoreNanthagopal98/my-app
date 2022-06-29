@@ -8,7 +8,7 @@ export default function menuBar() {
       <div>
         <nav className={style.nav}>
           <ul className={style.ul}>
-            <Link href="#aboutMeId">
+            <Link href="#downArrow">
               <li className={style.li}>
                 <div className={style.homeicon}>
                   <div>
@@ -17,7 +17,7 @@ export default function menuBar() {
                 </div>
               </li>
             </Link>
-            <Link href="#skillSection">
+            <Link href="#download-pdf">
               <li className={style.li}>
                 <div className="abouticon">
                   <i className={`uil uil-books ${style.icon}`}></i>
