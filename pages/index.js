@@ -6,6 +6,7 @@ import DownloadResume from 'components/downloadResume/downloadResume.tsx';
 import MenuBar from 'components/menuBar/menuBar.tsx';
 import TypeSection from 'components/typeSection/typeSection.tsx';
 import SkillSection from 'components/skillsSection/skillSection.tsx';
+import Project from 'components/journeySection/journey.tsx';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <DownloadResume />
       <MenuBar />
       <SkillSection />
+      <Project />
     </>
   )
 }

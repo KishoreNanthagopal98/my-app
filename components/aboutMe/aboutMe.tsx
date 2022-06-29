@@ -13,7 +13,7 @@ function aboutMe() {
             <div className={`${styles.aboutMeSection} circle`}>
               <p className={styles.aboutDetails}>
                 Hi I&apos;m Kishore, A 24 Years young software developer, Living
-                in Coimbatore, India. Currently working at BYJU&apos;S as a full stack developer. 
+                in Coimbatore, India. Currently working at BYJU&apos;S as a senior software engineer. 
                 I love to learn New thing and solve
                 Problems. I love to capture sweet memories, moments and
                 things thats not vivisble to human eye, through one Instrument
