@@ -6,7 +6,7 @@ import DownloadResume from 'components/downloadResume/downloadResume.tsx';
 import MenuBar from 'components/menuBar/menuBar.tsx';
 import TypeSection from 'components/typeSection/typeSection.tsx';
 import SkillSection from 'components/skillsSection/skillSection.tsx';
-import Journey from 'components/journeySection/journey.tsx';
+import Journey from 'components/myJourney/journey.tsx';
 
 export default function Home() {
   return (

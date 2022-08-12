@@ -1,4 +1,4 @@
-import style from "../JourneySection/journeySection.module.scss";
+import style from "../myJourney/journeySection.module.scss";
 
 export default function Journey() {
   return (
