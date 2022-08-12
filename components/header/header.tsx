@@ -3,8 +3,6 @@ import { Image } from "react-bootstrap";
 import styles from "components/header/header.module.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { useState } from "react";
-
 function Header() {
 
   return (
