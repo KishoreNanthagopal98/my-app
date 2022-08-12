@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.skillsSection {
+    margin: auto;
+}
+
+.journeyTitle {
+    font-family: "Allura", cursive !important;
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: #9f5252;
+    font-weight: 500;
+    margin: 0;
+}
+
+.journeySectionBg {
+    width: 60%;
+    margin: auto;
+    // box-shadow: inset -2px -2px 10px 0px rgb(0 0 0 / 20%), 2px 3px 10px 5px rgb(0 0 0 / 20%);
+}
+
+.div {
+    width: 70%;
+    margin: auto;
+    box-shadow: inset -2px -2px 10px 0px rgb(0 0 0 / 20%), 2px 3px 10px 5px rgb(0 0 0 / 20%);
+    position: relative;
+}
+
+.imageClass {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.aboutData{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.cardDiv{
+    padding: 5% 0%;
+}
+
+.aboutDataText{
+    font-family: "Allura" !important;
+    font-size: 27px;
+    font-weight: bold;
+    color: #9f5252;
+}
+
+.dateSection{
+    background-color: #272b7d;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    width: 50%;
+}
+
+.dot{
+    border-left: 6px solid #9f5252;
+    height: 40px;
+    margin: auto;
+    width: 1%;
+}
+
+.byjusDate{
+    background-color: #7006a1 !important;
+}
+
+@media(max-width:991px){
+    .dateSection{
+        background-color: #272b7d;
+        color: white;
+        font-weight: bold;
+        margin: auto;
+        width: 50%;
+        font-size: 15px;
+    }
+    .div {
+        width: 100%;
+        margin: auto;
+        box-shadow: inset -2px -2px 10px 0px rgb(0 0 0 / 20%), 2px 3px 10px 5px rgb(0 0 0 / 20%);
+        position: relative;
+    }
+}
+
+@media(max-width:520px){
+    .dateSection{
+        background-color: #272b7d;
+        color: white;
+        font-weight: bold;
+        margin: auto;
+        width: 50%;
+        font-size: 10px;
+    }
+    .aboutDataText{
+        font-family: "Allura" !important;
+        font-size: 19px;
+        font-weight: bold;
+        color: #9f5252;
+    }
+    .journeySectionBg {
+        width: 100%;
+        margin: auto;
+    }
+}
