@@ -13,7 +13,7 @@ export default function Journey() {
               <div className={style.cardDiv}>
                 <div className={style.imageDiv}>
                   <img
-                    src="KCT_logo_header.svg"
+                    src="KCT_logo_Header.svg"
                     width="80%"
                     className={style.imageClass}
                   />
