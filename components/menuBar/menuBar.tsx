@@ -24,11 +24,13 @@ export default function menuBar() {
                 </div>
               </li>
             </Link>
-            <li className={style.li}>
-              <div className="work-icon">
-                <i className={`uil uil-copy-alt ${style.icon}`}></i>
-              </div>
-            </li>
+            <Link href="#journey-section">
+              <li className={style.li}>
+                <div className="work-icon">
+                  <i className={`uil uil-copy-alt ${style.icon}`}></i>
+                </div>
+              </li>
+            </Link>
             <li className={style.li}>
               <div className="mail-icon">
                 <div className="mail-base">

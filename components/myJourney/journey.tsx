@@ -3,11 +3,11 @@ import style from "../myJourney/journeySection.module.scss";
 export default function Journey() {
   return (
     <>
-      <br />
+      <br id ="journey-section" />
       <h1 className={style.journeyTitle}>My Journey</h1>
       <br />
       <div>
-        <div className="containers">
+        <div className="containers" >
           <div className={style.journeySectionBg}>
             <div className={style.div}>
               <div className={style.cardDiv}>
