@@ -31,13 +31,13 @@ export default function menuBar() {
                 </div>
               </li>
             </Link>
-            <li className={style.li}>
+            {/* <li className={style.li}>
               <div className="mail-icon">
                 <div className="mail-base">
                   <i className={`uil uil-message ${style.icon}`}></i>
                 </div>
               </div>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
