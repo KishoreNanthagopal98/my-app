@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Welcome my website. My name is Kishore Nandagopal"></meta>
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></link>
         <meta name="keyword" content="Kishore Nandagopal blog, Kishore NP blog"></meta>
-        <meta name="robots" content= "index, follow" />
+        <meta name="robots" content= "noindex,nofollow" />
         <meta property="og:type" content="Kishore Nandagopal Blog" />
         <meta property="og:image" content="LogoReal.png" />
         <meta property="og:description" content="Welcome to Kishore Nandagopal Blog. A Place where you can get to know about me..." />
