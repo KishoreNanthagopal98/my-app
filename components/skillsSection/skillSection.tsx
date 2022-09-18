@@ -93,7 +93,7 @@ export default function SkillSection() {
               </div>
               <div className={style.label}>Apache Hive</div>
             </div>
-            <div className={style.skill}>
+            <div className={style.skill + " " + style.lastSkill}>
               <div className={style.imageborder}>
                 <img className={style.image} src="icons8-machine-learning-64.png" />
               </div>

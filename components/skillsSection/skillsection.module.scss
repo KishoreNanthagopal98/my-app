@@ -5,12 +5,12 @@
 }
 
 .myskilltitle {
-    font-family: "Allura", cursive !important;
+    font-family: cursive !important;
     padding: 25px 0px;
     text-align: center;
     font-size: 50px;
     color: #9f5252;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -55,6 +55,8 @@
     margin-top: 5px;
     font-size: 20px;
     color: #9f5252;
+    font-weight: 500;
+    font-family: cursive !important;;
 }
 
 @media (max-width:640px) {
@@ -65,6 +67,17 @@
 
 @media(max-width:390px) {
     .skillRow {
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width:560px){
+    .lastSkill{
+        margin-left: 50%;
+        width: 100%;
+    }
+
+    .label {
+        font-size: 15px;
     }
 }

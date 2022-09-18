@@ -31,13 +31,15 @@ export default function menuBar() {
                 </div>
               </li>
             </Link>
-            {/* <li className={style.li}>
-              <div className="mail-icon">
-                <div className="mail-base">
-                  <i className={`uil uil-message ${style.icon}`}></i>
+            <Link href="#reachUsAtSection">
+              <li className={style.li}>
+                <div className="mail-icon">
+                  <div className="mail-base">
+                    <i className={`uil uil-message ${style.icon}`}></i>
+                  </div>
                 </div>
-              </div>
-            </li> */}
+              </li>
+            </Link>
           </ul>
         </nav>
       </div>
