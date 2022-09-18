@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
-        <link rel="canonical" href=""></link>
+        <link rel="canonical" href="https://kishoren.vercel.app/"></link>
         <meta property="og:url" content="https://kishoren.vercel.app/"></meta>
       </head>
       <Component {...pageProps} />
