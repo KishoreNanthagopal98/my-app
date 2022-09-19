@@ -32,7 +32,7 @@ function MyApp ({ Component, pageProps }) {
         <link rel='canonical' href='https://kishoren.vercel.app/'></link>
         <meta property='og:url' content='https://kishoren.vercel.app/'></meta>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
-        <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
+        <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
           href='https://fonts.googleapis.com/css2?family=Righteous&display=swap'
           rel='stylesheet'
