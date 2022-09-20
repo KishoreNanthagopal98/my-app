@@ -22,7 +22,7 @@ const schema = yup
       .string()
       .required("Phone Number is Required*")
       .matches(/^[0-9]{10}$/, "Mobile No. should be 10 digits number."),
-    comment: yup.string().required("Comment is required*").min(3).max(300),
+    comment: yup.string().required("message is required*").min(3).max(300),
   })
   .required();
 
