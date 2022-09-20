@@ -16,7 +16,7 @@ function aboutMe() {
                 in Coimbatore, India. Currently working at BYJU&apos;S as a senior software engineer. 
                 I love to learn New thing and solve
                 Problems. I love to capture sweet memories, moments and
-                things thats not vivisble to human eye, through one Instrument
+                things thats not visible to human eye, through one Instrument
                 that can freeze time and give us back as photos. I like meeting
                 new people and learn new things. Take a look at my resume.
               </p>
