@@ -6,7 +6,6 @@ import * as yup from "yup";
 import axios from "axios";
 
 import style from "../reachUsSection/reachus.module.scss";
-import Link from "next/link";
 
 const schema = yup
   .object()

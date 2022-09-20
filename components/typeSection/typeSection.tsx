@@ -4,7 +4,7 @@ import style from "components/typeSection/typeSection.module.scss";
 
 export default function TypeSection() {
   const { text } = useTypewriter({
-    words: ["Full Stack Developer", "Software Engineer", "Photographer"],
+    words: ["Full Stack Developer", "Senior Software Engineer", "Photographer"],
     loop: 0,
   });
 
