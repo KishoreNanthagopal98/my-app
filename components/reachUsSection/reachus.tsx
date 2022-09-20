@@ -6,6 +6,7 @@ import * as yup from "yup";
 import axios from "axios";
 
 import style from "../reachUsSection/reachus.module.scss";
+import Link from "next/link";
 
 const schema = yup
   .object()
@@ -60,9 +61,9 @@ function ReachMe() {
 
   return (
     <>
-      <div id='reachUsAtSection'>
+      <div id="reachUsAtSection">
         <div>
-          <h1 className={style.title}>Reach me @</h1>
+          <h1 className={style.title}>How about a Chat</h1>
         </div>
         <div className="container">
           <div className={formStatus ? style.formFailure : style.formSuccess}>
@@ -108,9 +109,7 @@ function ReachMe() {
                 className={"mb-3 " + style.formControl}
                 controlId="formBasicEmail"
               >
-                <Form.Label className={style.formLabel}>
-                  Your Thoughts*
-                </Form.Label>
+                <Form.Label className={style.formLabel}>Message*</Form.Label>
                 <Form.Control
                   type="text"
                   placeholder="Type Your Thoughts Here "
@@ -136,10 +135,53 @@ function ReachMe() {
                   ></path>
                 </svg>
                 <br />
-                <h4 className={style.submitLineOne}>Thank you for connecting with me !!</h4>
-                <h2 className={style.submitLineTwo}>I will get in touch with you shortly</h2>
+                <h4 className={style.submitLineOne}>
+                  Thank you for connecting with me !!
+                </h4>
+                <h2 className={style.submitLineTwo}>
+                  I will get in touch with you shortly
+                </h2>
               </div>
             </div>
+          </div>
+          <div className={style.socialReach}>
+            <div className={style.reachussecondary}>
+              <h1 className={style.titleSecondary}>Reach me @</h1>
+            </div>
+            <ul className={style.socialIcons}>
+              <li className={style.listBullet}>
+                <a
+                  href="https://www.instagram.com/nkishore_photography/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="instagram.png" className={style.socialPic}></img>
+                </a>
+              </li>
+              <li className={style.listBullet}>
+                <a
+                  href="https://www.linkedin.com/in/kishore-n-132a80179"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="linkedin.png" className={style.socialPic}></img>
+                </a>
+              </li>
+              <li className={style.listBullet}>
+                <a href="mailto:kishorenpn6@gmail.com">
+                  <img src="email.png" className={style.socialPic}></img>
+                </a>
+              </li>
+              <li className={style.listBullet}>
+                <a
+                  href="https://github.com/KishoreNanthagopal98"
+                  target="_blank"
+                  rel="nofollow noreferrer"
+                >
+                  <img src="github.png" className={style.socialPic}></img>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
