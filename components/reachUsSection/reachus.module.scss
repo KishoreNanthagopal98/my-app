@@ -8,6 +8,16 @@
     margin: 0;
 }
 
+.titleSecondary {
+    font-family: 'righteous', cursive !important;
+    padding: 25px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #9f5252;
+    font-weight: 600;
+    margin: 0;
+}
+
 .formControl{
     width: 40%;
     margin: auto;
@@ -40,6 +50,10 @@
         font-size: 30px;
     }
 
+    .titleSecondary {
+        font-size: 20px;
+    }
+
     .errorDisplay {
         font-size: 11px !important;
         margin-top: 5px !important;
@@ -55,6 +69,18 @@
         font-size: 19px !important;
     }
 
+    .socialPic{
+        width: 13% !important;
+        padding:0px 10px;
+    }
+
+}
+
+@media(max-width: 420px){
+    .socialPic{
+        width: 18% !important;
+        padding:0px 10px !important;
+    }
 }
 
 .inputField{
@@ -117,4 +143,23 @@
     color: #9f5252;
     font-weight: 600;
     margin: 0;
+}   
+
+.socialIcons{
+    text-align: center;
+    padding-left: 0px;
+}
+
+.socialPic{
+    width: 7%;
+    padding:0px 10px;
+}
+
+.socialPic:hover{
+    cursor: pointer;
+}
+
+.listBullet{
+    display: contents;
+    list-style: none;
 }
