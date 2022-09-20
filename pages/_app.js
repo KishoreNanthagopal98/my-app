@@ -17,7 +17,7 @@ function MyApp ({ Component, pageProps }) {
           name='keyword'
           content='Kishore Nandagopal blog, Kishore NP blog'
         ></meta>
-        <meta name='robots' content='noindex,nofollow' />
+        <meta name='robots' content='index,follow' />
         <meta property='og:type' content='Kishore Nandagopal Blog' />
         <meta property='og:image' content='LogoReal.png' />
         <meta
