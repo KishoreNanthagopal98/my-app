@@ -15,8 +15,7 @@ function aboutMe() {
                 Hi I&apos;m Kishore, A 24 Years young software developer, Living
                 in Coimbatore, India. Currently working at BYJU&apos;S as a senior software engineer. 
                 I love to learn New thing and solve
-                Problems. I love to capture sweet memories, moments and
-                things thats not visible to human eye, through one Instrument
+                Problems. I love to capture sweet memories and moments thats not visible to human eye, through one Instrument
                 that can freeze time and give us back as photos. I like meeting
                 new people and learn new things. Take a look at my resume.
               </p>
