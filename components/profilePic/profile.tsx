@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { bounceIn, bounceInLeft, bounceInRight } from "react-animations";
-import Radium from 'radium';
+import Radium from "radium";
 
 import styles from "components/profilePic/profile.module.scss";
 
 function profile() {
-  const stylesAnimation:any = {
+  const stylesAnimation: any = {
     bounceIn: {
       animation: "x 1s",
       animationName: Radium.keyframes(bounceIn, "bounceIn"),
@@ -18,18 +18,45 @@ function profile() {
     bounceInRight: {
       animation: "x 1s",
       animationName: Radium.keyframes(bounceInRight, "bounceInRight"),
-    }
+    },
   };
 
   return (
     <>
       <div className={styles.profileSection}>
-        <div className={styles.profileImage} id="profilePic">      
-          <Radium.StyleRoot className={styles.anime}>
-            <span className={styles.titleLineFirst} style={stylesAnimation.bounceInLeft}/>  
-            <img src="/profileImg-min.png" className={styles.image} style={stylesAnimation.bounceIn}/>
-            <span className={styles.titleLine} style={stylesAnimation.bounceInRight}/>
-          </Radium.StyleRoot>
+        <div className={styles.profileImage} id="profilePic">
+          <div className={styles.desktopImage}>
+            <Radium.StyleRoot className={styles.anime}>
+              <span
+                className={styles.titleLineFirst}
+                style={stylesAnimation.bounceInLeft}
+              />
+              <img
+                src="/profileImg-min.png"
+                className={styles.image}
+                style={stylesAnimation.bounceIn}
+              />
+              <span
+                className={styles.titleLine}
+                style={stylesAnimation.bounceInRight}
+              />
+            </Radium.StyleRoot>
+          </div>
+          <div className={styles.mobileImage}>
+            <span
+              className={styles.titleLineFirst}
+              style={stylesAnimation.bounceInLeft}
+            />
+            <img
+              src="/profileImg-min.png"
+              className={styles.image}
+              style={stylesAnimation.bounceIn}
+            />
+            <span
+              className={styles.titleLine}
+              style={stylesAnimation.bounceInRight}
+            />
+          </div>
         </div>
       </div>
     </>

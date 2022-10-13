@@ -73,6 +73,23 @@
   }
 }
 
+@media(max-width: 920px){
+  .mobileImage{
+    display: block !important;
+  }
+  .desktopImage{
+    display: none !important;
+  }
+}
+
+.mobileImage{
+  display: none;
+}
+
+.desktopImage{
+  display: block;
+}
+
 @media (min-width: 320px) and (max-width: 520.97px) {
   .titleLine {
     background-color: #9f5252;
