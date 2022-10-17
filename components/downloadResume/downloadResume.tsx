@@ -17,7 +17,7 @@ function resumeAnimation() {
       tar.disabled = true;
 
       setTimeout(() => {
-        window.location.href = 'kishore-n.pdf';
+        window.location.href = 'Kishore-N-resume.pdf';
         lastSpan.textContent = "Completed!";
       }, timeout * 0.9);
 
