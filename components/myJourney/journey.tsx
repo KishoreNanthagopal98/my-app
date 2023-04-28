@@ -86,7 +86,7 @@ export default function Journey() {
                   <p className={style.aboutDataText}>
                    Senior Software Engineer
                   </p>
-                  <p className={style.dateSection + " " + style.byjusDate}> 2022 - Present </p>
+                  <p className={style.dateSection + " " + style.byjusDate}> 2022 - 2023 </p>
                 </div>
               </div>
             </div>
