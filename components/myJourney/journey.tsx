@@ -90,6 +90,27 @@ export default function Journey() {
                 </div>
               </div>
             </div>
+            <div className={style.journeyLine}>
+              <div className={style.dot}></div>
+            </div>
+            <div className={style.div}>
+              <div className={style.cardDiv}>
+                <div className={style.imageDiv}>
+                  <img
+                    src="jdlogosvg.svg"
+                    width="80%"
+                    className={style.imageClass}
+                  />
+                </div>
+                <br />
+                <div className={style.aboutData}>
+                  <p className={style.aboutDataText}>
+                    Senior Software Engineer
+                  </p>
+                  <p className={style.dateSection + " " + style.justdialDate}>2023 - Present</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
