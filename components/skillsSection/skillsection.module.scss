@@ -60,13 +60,13 @@
 
 @media (max-width:640px) {
     .skillRow {
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
 }
 
 @media(max-width:390px) {
     .skillRow {
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
     }
 }
 
