@@ -8,6 +8,7 @@ import TypeSection from 'components/typeSection/typeSection.tsx';
 import SkillSection from 'components/skillsSection/skillSection.tsx';
 import Journey from 'components/myJourney/journey.tsx';
 import ReachMe from 'components/reachUsSection/reachus.tsx';
+import AwardSection from 'components/awardSection/awardSection.tsx';
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
       <SkillSection />
       <br/>
       <Journey />
+      <br />
+      <AwardSection />
       <br />
       <ReachMe />
     </>

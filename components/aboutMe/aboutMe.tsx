@@ -12,12 +12,7 @@ function aboutMe() {
           <div className={styles.aboutme} id="aboutMeId">
             <div className={`${styles.aboutMeSection} circle`}>
               <p className={styles.aboutDetails}>
-                Hi I&apos;m Kishore, A 24 Years young software developer, Living
-                in Coimbatore, India. Currently working at Justdial as a senior software engineer. 
-                I love to learn New thing and solve
-                Problems. I love to capture sweet memories and moments thats not visible to human eye, through one Instrument
-                that can freeze time and give us back as photos. I like meeting
-                new people and learn new things. Take a look at my resume.
+                Greetings, I&apos;m Kishore, a 25-year-old software developer residing in Coimbatore, India. I currently hold the position of Senior Software Engineer at Justdial. My passion lies in continuous learning, problem-solving, and capturing the intangible beauty of fleeting moments through the lens of a device that freezes time and transforms it into cherished photos. I thrive on meeting new people and expanding my knowledge horizons. Please peruse my resume for further insights into my professional journey.
               </p>
             </div>
           </div>

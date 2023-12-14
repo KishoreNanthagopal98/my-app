@@ -150,7 +150,7 @@ function ReachMe() {
             <ul className={style.socialIcons}>
               <li className={style.listBullet}>
                 <a
-                  href="https://www.instagram.com/nkishore_photography/"
+                  href="https://www.instagram.com/kishore_np/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
