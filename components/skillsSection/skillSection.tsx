@@ -99,6 +99,18 @@ export default function SkillSection() {
               </div>
               <div className={style.label}>Machine Learning</div>
             </div>
+            <div className={style.skill + " " + style.lastSkill}>
+              <div className={style.imageborder}>
+                <img className={style.image} src="pngwing.com.png" />
+              </div>
+              <div className={style.label}>Datadog</div>
+            </div>
+            <div className={style.skill + " " + style.lastSkill}>
+              <div className={style.imageborder}>
+                <img className={style.image} src="kafka.png" />
+              </div>
+              <div className={style.label}>Kafka</div>
+            </div>
           </div>
         </div>
       </section>
