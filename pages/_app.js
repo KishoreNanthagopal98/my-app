@@ -1,9 +1,11 @@
 import '../styles/globals.scss'
+import Head from 'next/head'
+import Snowfall from 'react-snowfall'
 
 function MyApp ({ Component, pageProps }) {
   return (
     <>
-      <head>
+      <Head>
         <title>Kishore NP</title>
         <meta
           name='description'
@@ -37,7 +39,21 @@ function MyApp ({ Component, pageProps }) {
           href='https://fonts.googleapis.com/css2?family=Righteous&display=swap'
           rel='stylesheet'
         ></link>
-      </head>
+      </Head>
+      <Snowfall
+        snowflakeCount={100}
+        snowflakeSize={10}
+        snowflakeColor='#ffffff'
+        style={{
+          position: 'fixed',
+          width: '100vw',
+          height: '100vh',
+          top: 0,
+          left: 0,
+          pointerEvents: 'none',
+          zIndex: 9999
+        }}
+      />
       <Component {...pageProps} />
     </>
   )

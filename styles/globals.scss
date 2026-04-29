@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .containers {
 	width: 100%;
 	padding-right: 15px;
@@ -37,14 +41,22 @@
 }
 
 html,
-body,
+body {
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+		Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+	color: inherit;
+	background-color: #0a0a0a;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
 body * {
 	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
 		Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 	color: inherit;
-	// background-color: inherit;
-	font-size: 20px;
 }
 
 @media (max-width:767.98px) {
@@ -70,7 +82,7 @@ p {
 }
 
 a {
-	color: #a86565 !important;
+	color: #8b5cf6 !important;
 	text-decoration: none !important;
 }
 
@@ -99,16 +111,15 @@ button {
 }
 
 button {
-	background: #a86565;
+	background: #8b5cf6;
 	border-radius: 40px;
 	color: #fff;
 	cursor: pointer;
 	display: flex;
-	margin: auto;
 	padding: 0.5em 1em;
 	position: relative;
 	transition: background 0.15s linear;
-	width: 10.5em;
+	width: auto;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -125,8 +136,8 @@ button::-moz-focus-inner {
 
 button:not(:disabled):focus,
 button:not(:disabled):hover {
-	background: white;
-	color: #a86565;
+	background: #7c3aed;
+	color: #ffffff;
 }
 
 button:not(:disabled):active {
@@ -202,7 +213,7 @@ button span+span {
 }
 
 .dlicon:after {
-	background-image: linear-gradient(#a86565, white);
+	background-image: linear-gradient(#8b5cf6, white);
 	background-position: -1.5em 0;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -397,11 +408,11 @@ button span+span {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-	background: #9f5252; 
+	background: #8b5cf6; 
 	border-radius: 10px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-	background: #9f5252; 
+	background: #7c3aed; 
   }
